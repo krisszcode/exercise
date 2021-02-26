@@ -1,0 +1,21 @@
+html, body {
+    width:  100%;
+    height: 100%;
+    margin: 0;
+}
+
+#display{
+    display:none;
+    text-align: center;
+    font-size: 78;
+    vertical-align: middle;
+}
+/* add media query for display text when resolution is low */
+@media (max-height: 768px) and (max-width: 1024px) {
+    #display{
+        display:inline !important;
+    }
+    #demo{
+        display:none;
+    }
+}
