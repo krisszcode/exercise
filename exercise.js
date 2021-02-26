@@ -28,13 +28,9 @@ var x=0;
 var y = 60
 var circleStop;
 var stopped = false;
-var korX = 0;
-var korY = 0;
-var megall;
 var idle = false;
 var clicked = false;
 var radius = 30;
-var firstend = false;
 guessX = 0;
 guessY = 0;
 
