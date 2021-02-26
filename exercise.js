@@ -71,7 +71,7 @@ function drawLine() {
 			}
 			if(!clicked && idle){
 				console.log("Tétlenség miatt megállt!")
-				learInterval(end);
+				clearInterval(end);
 			}
 		}
 	}
